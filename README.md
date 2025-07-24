@@ -4,12 +4,14 @@ Real-time OCR with OpenCV &amp; Tesseract, supporting Chinese/English/numbers
 This is a real-time text recognition tool based on OpenCV and Tesseract OCR engine that captures images by calling a computer camera, recognizes Chinese, English, and numbers in the images in real time, and displays the recognition results on the screen.
 Core features:
 - Real - time performance: The camera footage is processed in real - time with low recognition latency. - Multilingual support: It supports the recognition of Chinese (Simplified), English, and numbers simultaneously.
-- Lightweight deployment: fewer dependent libraries, and no need for an internet connection for local operation
+- Multilingual support: Supports the recognition of Chinese (Simplified), English, and numbers simultaneously.
+- Lightweight deployment: fewer dependent libraries, and no need for an internet connection for local operation.
 - Extensible: Supports custom image preprocessing (such as noise reduction, threshold adjustment) to optimize the recognition effect.
 
 这是一个基于 OpenCV 和 Tesseract OCR 引擎的实时文字识别工具，通过调用电脑摄像头捕获画面，实时识别画面中的中文、英文和数字，并在屏幕上显示识别结果。
 核心特点：
-- 实时性：摄像头画面实时处理，识别延迟低； - 多语言支持：同时支持中文（简体）、英文和数字识别
+- 实时性：摄像头画面实时处理，识别延迟低
+- 多语言支持：同时支持中文（简体）、英文和数字识别
 - 轻量部署：依赖库少，本地运行无需联网
 - 可扩展：支持自定义图像预处理（如降噪、阈值调整）优化识别效果
 
